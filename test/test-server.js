@@ -30,7 +30,7 @@ describe('Shopping List', function() {
   // if we add another test module that also has a `before` block
   // that starts our server, it will cause an error because the
   // server would still be running from the previous tests.
-  after(function() {
+  after(function() {  
     return closeServer();
   });
 
